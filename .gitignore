@@ -1,0 +1,26 @@
+# ─── Cairo / Scarb / Starknet Foundry ────────────────────────────
+target/
+.cairo_foundry/
+.cairo_build/
+
+# ─── Python Scripts ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+*.log
+
+# ─── OS / Editor / Misc ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Temporary ABI/Compiled Artifacts ────────────────────────────
+abi/
